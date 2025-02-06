@@ -1,10 +1,10 @@
-import React from 'react';
+import styles from './page.module.scss';
 
 type AboutPageProps = {};
 
 const AboutPage = (props: AboutPageProps) => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>About Page</h1>
     </div>
   );

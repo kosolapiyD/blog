@@ -18,7 +18,7 @@ const HomePage = (props: HomePageProps) => {
         <Button url='/portfolio' text='See Our Works' />
       </div>
       <div className={styles.item}>
-        {/* <Image src={'/hero.png'} alt='' className={styles.img} fill /> */}
+        <Image src={'/hero.png'} alt='' className={styles.img} fill />
       </div>
     </div>
   );
